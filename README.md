@@ -38,7 +38,7 @@ router eigrp 100
  network 10.1.23.0 0.0.0.3
  network 192.168.20.0
 ```
-##BGP Configurations
+## BGP Configurations
 On R3 
 ```bash
 router bgp 65001
