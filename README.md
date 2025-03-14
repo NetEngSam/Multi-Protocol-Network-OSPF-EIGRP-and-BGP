@@ -1,4 +1,4 @@
-# Multi-Protocol Network: OSPF, EIGRP, and BGP
+# Multi Protocol Network: OSPF, EIGRP, and BGP
 
 In this lab, I set up a **multi-protocol network** using **OSPF, EIGRP, and BGP** to explore how different routing protocols can coexist in a real-world scenario. The primary goal was to ensure smooth communication between all devices, despite them running different protocols. To achieve this, I configured **route redistribution** between OSPF, EIGRP, and BGP while troubleshooting potential connectivity issues along the way.
 ---
@@ -94,6 +94,40 @@ During the lab, I encountered a critical issue where PC1 could not ping R4 (10.1
 ---
 ## Conclusion
 This lab simulates a real-world multi-protocol network where OSPF, EIGRP, and BGP need to interconnect. Through route redistribution and careful troubleshooting, I was able to establish full connectivity across the entire network. This type of setup is commonly seen in enterprise environments where different teams or vendors use different routing protocols, requiring proper integration to maintain network stability and efficiency.
+---
+## Screenshots
+
+### 1 Lab Topology:
+![image](https://github.com/user-attachments/assets/e33eedc5-4793-4a61-8f54-b98ceba6d99a)
+
+### 2 Routing Tables: 
+ - ### R1:
+ ![image](https://github.com/user-attachments/assets/78344b54-718a-4e11-8b3a-7bfa0ba6098b)
+
+- #### R2:
+  ![image](https://github.com/user-attachments/assets/9747d326-da46-417c-ae56-4ba00f20feff)
+
+- #### R3:
+![image](https://github.com/user-attachments/assets/8fb30570-cafc-4bd4-94de-8ddfa55b2de3)
+
+- #### R4:
+![image](https://github.com/user-attachments/assets/04f8a0e0-1253-45a4-8e13-669195d1753b)
+
+### 3 Ping Tests:
+
+#### PC1 to R4:
+![image](https://github.com/user-attachments/assets/47415899-1b4f-4c3e-a49d-fd3c73bcc693)
+
+#### PC2 to R4:
+![image](https://github.com/user-attachments/assets/4ad41e8c-debe-4af8-a81d-53f0aa590d6b)
+
+---
+# Final Thoughts
+
+### This lab provided valuable hands-on experience in configuring and troubleshooting a multi-protocol network using OSPF, EIGRP, and BGP. The challenges faced during route redistribution and connectivity verification reflect real-world scenarios that network engineers often encounter.Future improvements could include implementing Route Maps and Prefix Lists to refine redistribution and enhance control over route propagation.
+Would love to hear any feedback or suggestions to make this setup even better! 🚀🔧
+---
+  
 
 
 
